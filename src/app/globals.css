@@ -7,19 +7,22 @@ html {
 }
 
 :root {
-  color: eefff8;
+  background-image: url("/public/cool-background.svg"); /* Replace with the path to your image */
+  background-size: cover;
+  background-position: center;
   
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    background-image: url("/public/cool-background.svg"); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
   }
 }
 
 body {
-  color: eefff8;
-  
+  background-color: 
+  #d2f8d2
+  ;
 }

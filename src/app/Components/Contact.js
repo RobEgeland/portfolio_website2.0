@@ -48,10 +48,10 @@ const Contact = () => {
             <h2 className='py-4 text-4xl'>Get In Touch</h2>
             <div className='grid lg:grid-cols-5 gap-8:'></div>
             {/* left */}
-            <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+            <div className=' m-auto col-span-3 lg:col-span-2 w-[85%] h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                 <div className='lg:p-4 h-full'>
                     <div>
-                        <Image src={ContactImg} className='rounded-xl hover:scale-105 ease-in duration-300'></Image>
+                        <Image src={ContactImg} className='rounded-xl hover:scale-95 ease-in duration-300'></Image>
                     </div>
                     <div>
                         <h2 className='py-2 text-2xl'>Rob Egeland</h2>
@@ -82,7 +82,7 @@ const Contact = () => {
                 </div>
             </div>
             {/* right side */}
-            <div className='col-span w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+            <div className='m-auto col-span w-[85%] h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                 <div className='p-4'>
                     <form onSubmit={sendEmail} id='email'>
                         <div className='grid md:grid-cols-2 gap-4 w-full py-2'>

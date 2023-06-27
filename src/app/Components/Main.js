@@ -8,7 +8,7 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
-                <p className='uppercase text-sm tracking-widest text-gray-600'>Placeholder for quote</p>
+                <p className='uppercase text-sm tracking-widest text-gray-600'>Passionate about tech, Music, and Automobiles, I drive innovation in ambitious projects.</p>
                 <h1 className=' uppercase py-4 text-5xl text-gray-700'>
                     Hi, I'm <span className='text-blue-400'>Rob</span>
                 </h1>
