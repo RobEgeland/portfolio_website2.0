@@ -18,8 +18,10 @@ const Projects = () => {
                         <h3 className='text-2xl text-white tracking-wider text-center'>Lushify</h3>
                         <p className='pb-1 pt-2 text-white text-center'>A POS system for Floral business</p>
                         <p className='pb-4 pt-2 text-white text-center'>ReactJs, Ruby on Rails</p>
-                        <Link href={'/'}>
-                            <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
+                        <Link className='flex items-center justify-between max-w-[330px] m-auto py-4' href={'/'}>
+                            <p className='text-center py-3 px-5 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Demo</p>
+                            <p className='text-center py-3 px-5 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Code</p>
+
                         </Link>
                     </div>
                 </div>
@@ -29,8 +31,9 @@ const Projects = () => {
                         <h3 className='text-2xl text-white tracking-wider text-center'>Synth-etic</h3>
                         <p className='pb-1 pt-2 text-white text-center'>Web-based dual oscillator synthesizer.</p>
                         <p className='pb-4 pt-2 text-white text-center'>ReactJs, ToneJs, Ruby on Rails</p>
-                        <Link href={'/'}>
-                            <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
+                        <Link className='flex items-center justify-between max-w-[330px] m-auto py-4' href={'/'}>
+                            <p className=' text-center py-3 px-5 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Demo</p>
+                            <p className=' text-center py-3 px-5 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Code</p>
                         </Link>
                     </div>
                 </div>

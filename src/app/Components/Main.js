@@ -1,5 +1,6 @@
 import React from 'react'
 import {AiFillLinkedin, AiFillGithub, AiTwotoneMail} from 'react-icons/ai'
+import Link from 'next/link'
 
 
 const Main = () => {
@@ -18,15 +19,21 @@ const Main = () => {
                 Experience in React, JavaScript, Ruby, and Rails. With 6 years of managerial experience in the floral business, I bring business leadership, client relations, and problem-solving skills to accomplish vigorous projects and obstacles. My interest for Music and Automobiles have coalesced into a passion for the software behind them.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <AiFillLinkedin />
-                    </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <AiFillGithub />
-                    </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <AiTwotoneMail />
-                    </div>
+                    <a href={'https://www.linkedin.com/in/robertegeland/'}>
+                        <div  className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <AiFillLinkedin  />
+                        </div>
+                    </a>
+                    <a href={'https://github.com/RobEgeland'}>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <AiFillGithub />
+                        </div>
+                    </a>
+                    <Link href="/#email">
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <AiTwotoneMail  />
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>
