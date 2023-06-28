@@ -20,15 +20,15 @@ const NavBar = () => {
     },[])
 
   return (
-    <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] !color-white' : 'fixed w-full h-20 z-[100] !color-white'}>
-        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-        <Image 
-            src="/../public/logo.png" 
-            width="115" 
-            height="20" 
-        />
-            <div className=''>
-                <ul className='hidden md:flex float:right mr-0'>
+    <div className={shadow ? 'bg-[#d2e5f8] fixed w-full h-20 shadow-xl z-[100] color-green' : 'bg-[#d2e5f8] fixed w-full h-20 z-[100] color-white'}>
+        <div className='flex justify-between items-center m-auto w-full h-full px-2 2xl:px-15'>  
+            <Image 
+                src="/../public/Rob.png" 
+                width="200" 
+                height="200" 
+            />
+            <div className='mx-5'>
+                <ul className='hidden md:flex mr-0'>
                     <Link href="/">
                         <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
                     </Link>
@@ -44,22 +44,23 @@ const NavBar = () => {
                     <Link href="/#contact">
                         <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
                     </Link>
+
                 </ul>
             </div>
             <div onClick={() => setNav(true)} className='md:hidden'>
                 <AiOutlineMenu size={25} />
             </div>
         <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ""}>
-            <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#eefff8] p-10 ease-in duration-500' : 'fixed left-[-100%] top-0 ease-in duration-500'}>
+            <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500' : 'fixed left-[-100%] top-0 ease-in duration-500'}>
                 <div>
                     <div className='flex w-full items-center justify-between'>
-                        <Image  src='/../public/logo.png' alt='/' width='87' height='35' />
+                        <Image  src='/../public/Rob.png' alt='/' width='100' height='50' />
                         <div onClick={() => setNav(false)} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                             <AiOutlineClose />
                         </div>
                     </div>
                     <div className='border-b border-gray-300 my-4'>
-                        <p className='w-[85%] md:w-[90%] py-4'>Testinf other computer</p>
+                        <p className='w-[85%] md:w-[90%] py-4'>I drive innovation in ambitious projects.</p>
                     </div>
                 </div>
                 <div className='py-4 flex flex-col'>

@@ -8,7 +8,7 @@ const Skills = () => {
             <p className='text:xl tracking-widest uppercase text-blue-400'>Skills</p>
             <h2 className='py-4 text-4xl'>My ToolBelt</h2>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-                <div className='py-6 shadow-xl hover:scale-105 ease-in duration-300'>
+                <div className='bg-white py-6 shadow-xl hover:scale-105 ease-in duration-300'>
                     <div className=' grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src='/../public/skills/html.png' alt='/' width="65" height="65"/>
@@ -18,7 +18,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='py-6 shadow-xl hover:scale-105 ease-in duration-300'>
+                <div className='bg-white py-6 shadow-xl hover:scale-105 ease-in duration-300'>
                     <div className=' grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src='/../public/skills/css.png' alt='/' width="65" height="65"/>
@@ -28,7 +28,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='py-6 shadow-xl hover:scale-105 ease-in duration-300'>
+                <div className='bg-white py-6 shadow-xl hover:scale-105 ease-in duration-300'>
                     <div className=' grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src='/../public/skills/javascript.png' alt='/' width="65" height="65"/>
@@ -38,7 +38,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='py-6 shadow-xl hover:scale-105 ease-in duration-300'>
+                <div className='bg-white py-6 shadow-xl hover:scale-105 ease-in duration-300'>
                     <div className=' grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src='/../public/skills/node.png' alt='/' width="65" height="65"/>
@@ -48,7 +48,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='py-6 shadow-xl hover:scale-105 ease-in duration-300'>
+                <div className='bg-white py-6 shadow-xl hover:scale-105 ease-in duration-300'>
                     <div className=' grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src='/../public/skills/react.png' alt='/' width="65" height="65"/>
@@ -58,7 +58,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='py-6 shadow-xl hover:scale-105 ease-in duration-300'>
+                <div className='bg-white py-6 shadow-xl hover:scale-105 ease-in duration-300'>
                     <div className=' grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src='/../public/skills/ruby.png' alt='/' width="65" height="65"/>
@@ -68,12 +68,12 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='py-6 shadow-xl hover:scale-105 ease-in duration-300'>
+                <div className='bg-white py-6 shadow-xl hover:scale-105 ease-in duration-300'>
                     <div className=' grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src='/../public/skills/rails2.png' alt='/' width="65" height="65"/>
                         </div>
-                        <div className='flex flex-col items-center justify-center'>
+                        <div className='flex flex-col items-center justify-center py-6'>
                             <h3>Ruby on Rails</h3>
                         </div>
                     </div>

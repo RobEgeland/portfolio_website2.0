@@ -4,13 +4,11 @@
 
 html {
   scroll-behavior: smooth!important;
+
 }
 
 :root {
-  background-image: url("/public/cool-background.svg"); /* Replace with the path to your image */
-  background-size: cover;
-  background-position: center;
-  
+    background-color: #d2f8d2;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,7 +20,5 @@ html {
 }
 
 body {
-  background-color: 
-  #d2f8d2
-  ;
+ 
 }

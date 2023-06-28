@@ -48,7 +48,7 @@ const Contact = () => {
             <h2 className='py-4 text-4xl'>Get In Touch</h2>
             <div className='grid lg:grid-cols-5 gap-8:'></div>
             {/* left */}
-            <div className=' m-auto col-span-3 lg:col-span-2 w-[85%] h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+            <div className='bg-white m-auto col-span-3 lg:col-span-2 w-[85%] h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                 <div className='lg:p-4 h-full'>
                     <div>
                         <Image src={ContactImg} className='rounded-xl hover:scale-95 ease-in duration-300'></Image>
@@ -82,9 +82,9 @@ const Contact = () => {
                 </div>
             </div>
             {/* right side */}
-            <div className='m-auto col-span w-[85%] h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
-                <div className='p-4'>
-                    <form onSubmit={sendEmail} id='email'>
+            <div id='email' className='bg-white m-auto mt-5 col-span w-[85%] h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+                <div  className='p-4'>
+                    <form onSubmit={sendEmail} >
                         <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                             <div className='flex flex-col'>
                                 <label className='uppercase text-sm py-2'>Name</label>
@@ -129,7 +129,7 @@ const Contact = () => {
             </div>
             <div className='flex justify-center py-12'>
                 <Link href='/'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='bg-white rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsArrowUpCircleFill className='text-blue-400' size={30}/>
                     </div>
                 </Link>
