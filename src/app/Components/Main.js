@@ -11,7 +11,7 @@ const Main = () => {
             <div>
                 <p className='uppercase text-sm tracking-widest text-gray-600'>Passionate about tech, Music, and Automobiles, I drive innovation in ambitious projects.</p>
                 <h1 className=' uppercase py-4 text-5xl text-gray-700'>
-                    Hi, I'm <span className='text-[#e1ad01]'>Rob</span>
+                    Hi, I&apos;m <span className='text-[#e1ad01]'>Rob</span>
                 </h1>
                 <h1 className=' uppercase py-2 text-4xl text-gray-700'>
                     A Full Stack Web Developer

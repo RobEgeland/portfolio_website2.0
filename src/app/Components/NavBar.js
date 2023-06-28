@@ -82,7 +82,7 @@ const NavBar = () => {
                         </Link>
                     </ul>
                     <div className='pt-40 '>
-                        <p className='uppercase tracking-widest'>Let's Connect</p>
+                        <p className='uppercase tracking-widest'>Let&apos;s Connect</p>
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                 <AiFillLinkedin />
