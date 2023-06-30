@@ -1,0 +1,6 @@
+  type: web
+  name: nextjs-static
+  env: static
+  buildCommand: yarn; yarn build; yarn next export
+  staticPublishPath: out
+  pullRequestPreviewsEnabled: true
