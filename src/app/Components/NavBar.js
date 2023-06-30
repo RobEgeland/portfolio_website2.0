@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, {useEffect, useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu, AiFillLinkedin, AiFillGithub, AiTwotoneMail} from 'react-icons/ai'
+import Logo from '../../../public/static/images/Rob.png'
 
 const NavBar = () => {
     const [nav, setNav] = useState(false)
@@ -23,7 +24,7 @@ const NavBar = () => {
     <div className={shadow ? 'bg-[#d2e5f8] fixed w-full h-20 shadow-xl z-[100] color-green' : 'bg-[#d2e5f8] fixed w-full h-20 z-[100] color-white'}>
         <div className='flex justify-between items-center m-auto w-full h-full px-2 2xl:px-15'>  
             <Image 
-                src="/../public/Rob.png" 
+                src={Logo} 
                 width="200" 
                 height="200" 
             />

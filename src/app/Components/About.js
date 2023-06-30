@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import headshot from '../../../public/static/images/Headshot.jpeg'
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
                 </p>
             </div>
             <div>
-                <Image src='/../public/Headshot.jpeg' alt='/' width='300' height='300' className='h-300 mx-auto object-cover rounded-full w-300 p-4 hover:scale-105 ease-in duration-300' />
+                <Image src={headshot} alt='/' width='300' height='300' className='h-300 mx-auto object-cover rounded-full w-300 p-4 hover:scale-105 ease-in duration-300' />
             </div>
         </div>
     </div>
