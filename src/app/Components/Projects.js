@@ -18,11 +18,14 @@ const Projects = () => {
                         <h3 className='text-2xl text-white tracking-wider text-center'>Lushify</h3>
                         <p className='pb-1 pt-2 text-white text-center'>A POS system for Floral business</p>
                         <p className='pb-4 pt-2 text-white text-center'>ReactJs, Ruby on Rails</p>
-                        <Link className='flex items-center justify-between max-w-[330px] m-auto py-4' href={'/'}>
-                            <p className='text-center py-3 px-5 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Demo</p>
-                            <p className='text-center py-3 px-5 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Code</p>
-
-                        </Link>
+                        <div className='flex items-center justify-between max-w-[330px] m-auto py-4' href={'/'}>
+                            <a href={'https://lushify.onrender.com/'}>
+                                <p className='text-center py-3 px-5 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Demo</p>
+                            </a>
+                            <a href={'https://github.com/RobEgeland/Lushify'}>
+                                <p className='text-center py-3 px-5 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Code</p> 
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className='bg-white relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-blue-400 to-blue-100'>
@@ -31,10 +34,14 @@ const Projects = () => {
                         <h3 className='text-2xl text-white tracking-wider text-center'>Synth-etic</h3>
                         <p className='pb-1 pt-2 text-white text-center'>Web-based dual oscillator synthesizer.</p>
                         <p className='pb-4 pt-2 text-white text-center'>ReactJs, ToneJs, Ruby on Rails</p>
-                        <Link className='flex items-center justify-between max-w-[330px] m-auto py-4' href={'/'}>
-                            <p className=' text-center py-3 px-5 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Demo</p>
-                            <p className=' text-center py-3 px-5 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Code</p>
-                        </Link>
+                        <div className='flex items-center justify-between max-w-[330px] m-auto py-4' href={'/'}>
+                            <a href={'https://synth-etic.onrender.com/'}>
+                                <p className=' text-center py-3 px-5 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Demo</p>
+                            </a>
+                            <a href={'https://github.com/RobEgeland/Synth-etic'}>
+                                <p className=' text-center py-3 px-5 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Code</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import React, {useEffect, useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu, AiFillLinkedin, AiFillGithub, AiTwotoneMail} from 'react-icons/ai'
 import Logo from '../../../public/static/images/Rob.png'
+// import resume from '../../../public/static/Resume.pdf'
 
 const NavBar = () => {
     const [nav, setNav] = useState(false)
@@ -22,40 +23,45 @@ const NavBar = () => {
 
   return (
     <div className={shadow ? 'bg-[#d2e5f8] fixed w-full h-20 shadow-xl z-[100] color-green' : 'bg-[#d2e5f8] fixed w-full h-20 z-[100] color-white'}>
-        <div className='flex justify-between items-center m-auto w-full h-full px-2 2xl:px-15'>  
+        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-15'>  
             <Image 
                 src={Logo} 
                 width="200" 
                 height="200" 
             />
             <div className='mx-5'>
-                <ul className='hidden md:flex mr-0'>
+                <ul className='hidden md:flex'>
                     <Link href="/">
-                        <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
+                        <li className='ml-20 text-sm uppercase hover:border-b'>Home</li>
                     </Link>
                     <Link href="/#about">
-                        <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
+                        <li className='ml-20 text-sm uppercase hover:border-b'>About</li>
                     </Link>
                     <Link scroll={true} href="/#skills">
-                        <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+                        <li className='ml-20 text-sm uppercase hover:border-b'>Skills</li>
                     </Link>
                     <Link href="/#projects">
-                        <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
+                        <li className='ml-20 text-sm uppercase hover:border-b'>Projects</li>
                     </Link>
                     <Link href="/#contact">
-                        <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
+                        <li className='ml-20 text-sm uppercase hover:border-b'>Contact</li>
                     </Link>
 
                 </ul>
             </div>
+            {/* <a href={resume} download={resume}>
+                <button className=' mr-0 text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"'>Resume</button>
+            </a> */}
             <div onClick={() => setNav(true)} className='md:hidden'>
                 <AiOutlineMenu size={25} />
             </div>
+        
+        </div>
         <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ""}>
             <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500' : 'fixed left-[-100%] top-0 ease-in duration-500'}>
                 <div>
                     <div className='flex w-full items-center justify-between'>
-                        <Image  src='/../public/Rob.png' alt='/' width='100' height='50' />
+                        <Image  src={Logo} alt='/' width='100' height='100' />
                         <div onClick={() => setNav(false)} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                             <AiOutlineClose />
                         </div>
@@ -99,8 +105,6 @@ const NavBar = () => {
                     </div>
                 </div>
             </div>
-        </div>
-
         </div>
     </div>
   )
