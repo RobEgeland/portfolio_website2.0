@@ -3,6 +3,7 @@ import Contact from "./Components/Contact";
 import Main from "./Components/Main";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
+import Articles from "./Components/Articles";
 import ParticleComponent from "./ParticleComponent";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <Articles />
       <Contact />
       <ParticleComponent />
     </main>
