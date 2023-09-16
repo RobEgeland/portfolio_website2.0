@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiFillLinkedin, AiFillGithub, AiTwotoneMail} from 'react-icons/ai'
+import {AiFillLinkedin, AiFillGithub, AiTwotoneMail, AiFillMediumSquare} from 'react-icons/ai'
 import Link from 'next/link'
 import ParticleComponent from '../ParticleComponent'
 
@@ -28,6 +28,11 @@ const Main = () => {
                     <a href={'https://github.com/RobEgeland'}>
                         <div className='bg-white rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <AiFillGithub />
+                        </div>
+                    </a>
+                    <a href={'https://medium.com/@robegeland'}>
+                        <div className='bg-white rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <AiFillMediumSquare />
                         </div>
                     </a>
                     <Link href="/#email">
